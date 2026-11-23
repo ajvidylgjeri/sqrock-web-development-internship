@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuickBite - Food Delivery</title>
+<meta name="description" content="Order food from the best restaurants in your city.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="#/" class="logo">🍔 Quick<span>Bite</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Main">
+      <a href="#/" data-route="home">Home</a>
+      <a href="#/restaurants" data-route="restaurants">Restaurants</a>
+      <a href="#/menu" data-route="menu">Menu</a>
+      <a href="#/orders" data-route="orders">Orders</a>
+      <a href="#/cart" data-route="cart" class="cart-link">🛒 Cart <span id="cartCount" class="badge">0</span></a>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </div>
+</header>
+<main id="app" class="container" tabindex="-1"></main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><h4>🍔 QuickBite</h4><p>Hot food, fast delivery. Made with HTML, CSS and JavaScript.</p></div>
+    <div><h4>Contact</h4><p>📍 Rruga e Elbasanit, Tirana<br>📞 +355 69 000 0000<br>✉️ hello@quickbite.example</p></div>
+    <div><h4>Follow us</h4><p><a href="https://instagram.com" rel="noopener">Instagram</a> · <a href="https://facebook.com" rel="noopener">Facebook</a> · <a href="https://x.com" rel="noopener">X</a></p></div>
+  </div>
+  <p class="copy">© 2026 QuickBite — demo project, no real orders are placed.</p>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

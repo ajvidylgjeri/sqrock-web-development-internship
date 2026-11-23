@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VendorHub - Multi-Vendor Marketplace</title>
+<meta name="description" content="Shop products from many independent vendors in one place.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="#/" class="logo">🛍️ Vendor<span>Hub</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Main">
+      <a href="#/" data-route="home">Home</a>
+      <a href="#/products" data-route="products">Products</a>
+      <a href="#/vendors" data-route="vendors">Vendors</a>
+      <a href="#/cart" data-route="cart">🛒 Cart <span id="cartCount" class="badge">0</span></a>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </div>
+</header>
+<main id="app" class="container" tabindex="-1"></main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><h4>🛍️ VendorHub</h4><p>One marketplace, many independent shops. Demo project built with HTML, CSS and JavaScript.</p></div>
+    <div><h4>Contact</h4><p>📍 Bulevardi Zogu I, Tirana<br>📞 +355 69 000 0000<br>✉️ support@vendorhub.example</p></div>
+    <div><h4>Follow us</h4><p><a href="https://instagram.com" rel="noopener">Instagram</a> · <a href="https://facebook.com" rel="noopener">Facebook</a> · <a href="https://linkedin.com" rel="noopener">LinkedIn</a></p></div>
+  </div>
+  <p class="copy">© 2026 VendorHub — demo project, no real orders are placed.</p>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
